@@ -1,15 +1,14 @@
 固件来源：https://github.com/OpenStickCommunity/GP2040-CE;
 
 适用产品：
-	树莓派pico、盗版树莓派pico（引脚一定要和正版一样）。
+	树莓派pico、盗版树莓派pico(引脚一定要和正版一样);
 
 使用方法：
-	按住boot按钮再插usb，弹出硬盘后将GP2040-CE-RaspberryPiPico_v.0.5.2_Stick.uf2拖进去。
+	按住boot按钮再插usb，弹出硬盘后将GP2040-CE-RaspberryPiPico_v.0.5.2_Stick.uf2拖进去;
 
-方向切换设置：
-	断电后17脚接地再插usb，接入后可松开。
-	浏览器输入http://192.168.7.1/add-ons，将Silder LS Pin和Silder RS Pin分别改成26和27，然后点击save后拔出usb。
-	默认值是-1，代表没设置。
+更多网页设置：
+	断电后17脚(按下START)接地再插usb，接入后可松开;
+	浏览器输入http://192.168.7.1/
 
 其他设置：
 http://192.168.7.1/settings
@@ -25,15 +24,15 @@ http://192.168.7.1/settings
 	3、Right Analog：模拟右摇杆
 
 三、SOCD Mode
-	1、Up Priority：左右或上下同时触发时，保持先按下的键（推荐）
-	2、Neutral：左右或上下同时触发时，互相抵消为中（默认）
-	3、Last Win：左右或上下同时触发时，保持后按下的键（比赛禁止使用）
+	1、Up Priority：左右或上下同时触发时，保持先按下的键(推荐)
+	2、Neutral：左右或上下同时触发时，互相抵消为中(默认)
+	3、Last Win：左右或上下同时触发时，保持后按下的键(有些比赛禁止使用)
 
 四、模式切换
-	在插入摇杆时按住以下按钮开机将会切换模式，切换模式掉电也能保存。
-	1P - PS3/Dinput：适用于PS3/4主机模式
-	1K - Nintendo Switch：适用于任天堂Switch
-	2K - PC/XInput：适用于PC电脑或XBOX
+	在插入摇杆时按住以下按钮开机将会切换模式，切换模式掉电也能保存
+	1P - PS3/Dinput：适用于PS3/4主机模式
+	1K - Nintendo Switch：适用于任天堂Switch
+	2K - PC/XInput：适用于PC电脑或XBOX
 
        D-Pad模式
 	切换D-Pad模式，在开机按以下按钮：
@@ -42,14 +41,14 @@ http://192.168.7.1/settings
 	SELECT + START + RIGHT - 右模拟摇杆模式
 
        SOCD模式
-	切换SOCD模式，可以实现一些厚覆盖等特殊操作，在开机按以下按钮：
+	切换SOCD模式，可以实现一些厚覆盖等特殊操作，在开机按以下按钮:
 	HOME + START + DOWN - 回中 (U+D=N, L+R=N)
 	HOME + START + UP - 方向上优先(U+D=U, L+R=N)
 	HOME + START + LEFT - 最后输入优先
 
        连发模式（V1.2新增）
-	为1P/2P/3P/4P/1K/2K/3K/4K 8个按键增加了连发模式 ：
-	连发模式每秒可以在 1 到 60 次之间进行调整（1次/秒-60次/秒）；
-	如果连接了OLED，可以看到当前连发速度和已经连发的按钮；
-	开启/关闭连发模式 - 按住TURBO(FN1)按钮和要设置连发的按钮
-	调整连发的速度 - 按住TURBO + UP 提高速度，按住TURBO + DOWN 降低速度
+	为1P/2P/3P/4P/1K/2K/3K/4K 8个按键增加了连发模式:
+	连发模式每秒可以在 1 到 60 次之间进行调整（1次/秒-60次/秒）;
+	如果连接了OLED，可以看到当前连发速度和已经连发的按钮;
+	开启/关闭连发模式 - 按住TURBO(FN1)按钮和要设置连发的按钮;
+	调整连发的速度 - 按住TURBO + UP 提高速度，按住TURBO + DOWN 降低速度;
