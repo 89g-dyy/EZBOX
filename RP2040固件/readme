@@ -41,10 +41,10 @@ http://192.168.7.1/settings
 	SELECT + START + RIGHT - 右模拟摇杆模式
 
        SOCD模式
-	切换SOCD模式，可以实现一些厚覆盖等特殊操作，在开机按以下按钮:
+	切换SOCD模式，可以实现一些后覆盖等特殊操作，在开机按以下按钮:
 	HOME + START + DOWN - 回中 (U+D=N, L+R=N)
 	HOME + START + UP - 方向上优先(U+D=U, L+R=N)
-	HOME + START + LEFT - 最后输入优先
+	HOME + START + LEFT - 最后输入优先(后覆盖)
 
        连发模式（V1.2新增）
 	为1P/2P/3P/4P/1K/2K/3K/4K 8个按键增加了连发模式:
